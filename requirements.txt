@@ -69,5 +69,5 @@ urllib3==2.2.0
 watchdog==3.0.0
 websocket-client==1.7.0
 websockets==11.0.3
-Werkzeug==2.3.3
+Werkzeug==3.0.0
 WTForms==3.1.0
