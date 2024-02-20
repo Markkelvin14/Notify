@@ -1,6 +1,5 @@
 # NOTIFY [![NGINX License](https://img.shields.io/badge/license-NGINX-brightgreen.svg)](LICENSE)
-![note](https://github.com/Markkelvin14/Notify/assets/122996163/56730ad5-27ff-4aba-83fc-4e62ad49e0bc
-
+![note](https://github.com/Markkelvin14/Notify/assets/122996163/065b2a18-a451-4027-9340-8d2c910a3c58)
 
 # Notify App
 
