@@ -22,7 +22,7 @@ In the fast-paced world of today, keeping track of ideas, tasks, and memories ha
 - render.com
 
 ## Access the App
-- Open a web browser and go to https://www.markjkelvin.tech/ to use the app.
+- Open a web browser and go to https://notify-ii2f.onrender.com to use the app.
 
 ## Contributor
 
