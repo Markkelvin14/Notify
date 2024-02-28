@@ -1,8 +1,14 @@
 {% extends "layout.html" %} {% block title %}Home{% endblock %} {% block content
 %}
+<div class="article-metadata">
+  <div class="article-title">
+<h1><div class="text-secondary">{{ user.first_name }}'s Notes</h1>
+</div>
+</div>
 <h1 class='text-success' align="center">Notes</h1>
-<ul class='text-secondary' class="list-group list-group-flush" id="notes">
+<ul class='text-white' class="list-group list-group-flush" id="notes">
   {% for note in user.notes %}
+  <h5><a class="article-title"></a></h5>
   <li class='media-body' class="list-group-item">
     {{ note.data }}
     <button type="button" class="close" onClick="deleteNote({{ note.id }})">
