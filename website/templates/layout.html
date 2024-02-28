@@ -62,6 +62,25 @@
     {% endif %} {% endfor %} {% endif %} {% endwith %}
 
     <div class="container">{% block content %} {% endblock %}</div>
+    {% if user.is_authenticated %}
+   <div class="container">
+  <div class="row justify-content-end">
+    <div class="col-md-4">
+      <div>
+        <a class="article-title" href="#"><h3 class="text-success">Notify Hub</h3></a>
+        <p class='text-primary'>Notify, Your Personal Idea Lounge
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-action list-group-item-success">Last Weeks Notes</li>
+            <li class="list-group-item list-group-item-action list-group-item-success">Upcoming Events</li>
+            <li class="list-group-item list-group-item-action list-group-item-success">Food For Thought</li>
+            <li class="list-group-item list-group-item-action list-group-item-success">Family Tree</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
