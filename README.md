@@ -37,7 +37,7 @@ If you have any questions or feedback, please contact [mjkelvin38@gmail.com](mai
 ## Usage
 To run the app, execute the following command:
 
-1. git clone https://github.com/Markkelvin14/GameBook.git
+1. git clone https://github.com/Markkelvin14/Notify
 
 - python run.py
 
